@@ -3,8 +3,10 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     margin: 0%;
-    background-color: rgb(185, 137, 137);
+    background-color: #7F7F7F;
 }
 header{
     background-color:#2DCC70;
@@ -34,6 +36,7 @@ header ul li a{
 .part1{
     background-color: #7F7F7F;
     height: 520px;
+    margin: 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,12 +44,101 @@ header ul li a{
 }
 .part1 h1{
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 0%;
 }
 #para1{
     color: white;
     font-size: medium;
     font-weight: 800;
-   
+   text-align: center;
+}
+
+.part1 button {
+    background-color: #2DCC70;
+    border: none;
+    margin-top: 10px;
+    width:200px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.part2{
+    background-color: #F4F4F4;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.part2 h1{
+    cursor: pointer;
+    color: #2DCC70;
+    margin-bottom: 50px;
+}
+
+.items{
+    display: flex;
+    gap: 40px;
+}
+.item {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.item p{
+    text-align: center;
+    font-size: medium;
+}
+
+.item img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+}
+
+.part3{
+    background-color: #EAEEEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+
+.part3 h1{
+    color: #2DCC70;
+}
+
+.part3 button{
+    background-color: #2DCC70;
+    border: none;
+    margin-top: 10px;
+    width:150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+footer{
+    background-color: #2DCC70;
+}
+footer p{
+    text-align: center;
+    color:white;
 }

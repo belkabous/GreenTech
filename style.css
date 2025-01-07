@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #7F7F7F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-weight: bold;
+}
+
+form{
+    background-color: #2DCC70;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+form h1{
+    font-size: 30px;
+}
+
+form .separation{
+    width: 600px;
+    height: 3px;
+    background-color: rgb(63, 128, 92);
+    
+    
+}
+
+form .corps-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+form .corps-formulaire .groupe{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .corps-formulaire .gauche .groupe input{
+    margin-top: 5px;
+    padding: 10px 50px;
+}
+
+form .corps-formulaire .droite .groupe input{
+    margin-top: 5px;
+    padding: 10px 50px;
+ 
+}

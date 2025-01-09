@@ -1,0 +1,151 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  
+    background-color: #7F7F7F;
+   margin: 0%;
+   
+   
+}
+
+
+header{
+    background-color:#2DCC70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+header ul {
+    list-style: none;
+}
+header ul li{
+    display: inline;
+    margin: 20px 20px;
+}
+header ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+header ul li a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+form{
+    background-color: #ecf0f1;
+    padding: 50px;
+    border-radius: 10px;
+    width: 700px;
+    margin-left: 250px;
+    margin-top: 30px;
+    
+    
+}
+
+form h1{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+form .separation{
+    width: 700px;
+    height: 3px;
+    background-color: rgb(63, 128, 92);
+    
+    
+}
+
+form .corps-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+form .corps-formulaire .groupe{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .corps-formulaire .gauche .groupe input{
+    margin-top: 5px;
+    width: 280px;
+    padding: 10px ;
+    border: 1px solid #c9c9c9;
+    outline-color: #747cdf;
+    border-radius: 10px;
+    
+}
+
+form .corps-formulaire .droite .groupe input{
+    margin-top: 5px;
+    width: 280px;
+    padding: 10px ;
+    border: 1px solid #c9c9c9;
+    outline-color: #747cdf;
+    border-radius: 10px;
+
+}
+form .corps-formulaire .droite .groupe textarea{
+        margin-top: 5px;
+        width: 280px;
+        padding: 10px ;
+        border: 1px solid #c9c9c9;
+        outline-color: #747cdf;
+        border-radius: 10px;
+        background-color: #cfe1d6;
+
+}
+
+form .corps-formulaire .droite{
+    margin-left: 70px;
+}
+
+form .pieds-formulaire button{
+    background-color: #2DCC70;
+    border-radius: 20px;
+    border: #2DCC70;
+    height: 30px;
+    color: white;
+}
+
+
+
+form .pieds-formulaire button:hover{
+    background-color: red;
+}
+
+footer{
+    display:flex ;
+    background-color: #2DCC70;
+    height:55px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+
+
+
+}
+footer p{
+    
+    color:white;
+
+}

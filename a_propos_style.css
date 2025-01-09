@@ -17,6 +17,7 @@ header{
 header h2{
     margin-left: 20px;
     color: white;
+    cursor: pointer;
 }
 header ul {
     list-style: none;
@@ -29,6 +30,9 @@ header ul li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
+}
+header ul li a:hover{
+    color: red;
 }
 .container{
     max-width:3500px;
@@ -66,8 +70,6 @@ header ul li a{
 }  
 
 
-    flex:1;
-   padding: 18;
 
 .roles-content{
     

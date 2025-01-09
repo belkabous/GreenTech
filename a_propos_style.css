@@ -1,0 +1,109 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    margin: 0%;
+    background-color: #d9d9d9;
+
+}
+header{
+    background-color:#2DCC70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+header ul {
+    list-style: none;
+}
+header ul li{
+    display: inline;
+    margin: 20px 20px;
+}
+header ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+header ul li a:hover{
+    color: red;
+}
+.container{
+    max-width:3500px;
+    margin: 1px;
+    padding:26px;
+    background-color:rgb(130, 134, 131);
+    
+
+}
+.about-section{
+    
+    color: #e5f0e8;
+    
+}
+.about-section h1{
+    font-size: 50px;
+    margin-bottom: y10px;
+    justify-content: flex-start;
+   
+}
+.about-section p{
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-left: 400px;
+    color:#e5f0e8;
+}
+
+.role{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(249, 255, 255);
+    margin: 0px;
+
+
+}  
+
+
+
+.roles-content{
+    
+    display: flex;
+    
+
+    
+    
+}
+.roles-content h1{
+    margin-bottom: 10px;
+    margin-top: 0%;
+}
+.statu{
+    list-style: none;
+    padding: 16;
+    font-size: 18px;
+    color: #333;
+    justify-content: space-around;
+    
+    
+}
+.roles-content ul li {
+    margin-top:40px
+    
+}
+.this{
+    margin-left: 80px;
+}
+footer{
+    background-color: #2DCC70;
+    height: 60px;
+}
+footer p{
+    text-align: center;
+    color:white;
+}

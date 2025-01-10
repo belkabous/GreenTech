@@ -1,0 +1,131 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  
+    background-color: #7F7F7F;
+   margin: 0%;
+   
+}
+
+
+header{
+    background-color:#2DCC70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+header ul {
+    list-style: none;
+}
+header ul li{
+    display: inline;
+    margin: 20px 20px;
+}
+header ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+header ul li a:hover{
+    color: red;
+}
+
+  
+ /* Section Intro */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f0f9f4; /* Vert pastel léger pour un effet écologique */
+    border-bottom: 2px solid #d4e8d6; /* Ligne subtile pour séparer les sections */
+  }
+  
+  .intro h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #2e7d32; /* Vert foncé pour une apparence professionnelle */
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  
+  .intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #4a4a4a; /* Gris doux pour une bonne lisibilité */
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  
+  /* Section Services */
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #ffffff;
+  }
+  
+  .service {
+    background: #ffffff; /* Couleur blanche pour contraste */
+    border: 1px solid #e0e0e0; /* Bordure légère */
+    border-radius: 12px; /* Coins arrondis pour un design moderne */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    text-align: center;
+    width: 320px;
+  }
+  
+  .service:hover {
+    transform: translateY(-10px); /* Effet de levée au survol */
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15); /* Ombre plus prononcée */
+  }
+  
+  .service img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .service:hover img {
+    transform: scale(1.05); /* Zoom subtil au survol */
+  }
+  
+  .service h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #2e7d32;
+    margin: 15px 0;
+    
+  }
+  
+  .service p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #646464; 
+    text-align: center;
+  }
+
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2DCC70;
+    color: white;
+  }
+  footer p{
+    text-align: center;
+    color:white;
+}
+  

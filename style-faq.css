@@ -1,0 +1,93 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0%;
+    background-color: #7F7F7F;
+    width: auto;
+    height: auto;
+    
+}
+header{
+    background-color:#2DCC70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    margin-left: 20px;
+    color: white;
+}
+header h2{
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+header ul {
+    list-style: none;
+
+}
+header ul li{
+    display: inline;
+    margin: 20px 20px;
+}
+
+header ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover{
+    color: red;
+}
+
+.image-FAQ{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 180px;
+    flex-direction: column;
+    background-image: url("images/agriculture1.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin:1% ;
+    padding: auto;
+    height: 300px;
+    background-color:#7F7F7F;
+    border-radius: 30px;
+    
+}
+
+
+.FAQ{
+    color: #ffffff; 
+    font-size: 60px;
+    margin: 0%;
+    margin-right: 80px;
+    
+}
+.faq{
+    font-size:25px ;
+    margin-bottom: 1%;
+}
+
+.question-part{
+    display: flex;
+}
+
+.questions{
+    border-left: 2px solid black;
+    padding-left: 30px ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #2DCC70;
+}
+p{
+    color: #ffffff;
+}
